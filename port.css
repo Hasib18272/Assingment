@@ -1,0 +1,302 @@
+.inter-tight-normal {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: black;
+  font-style: normal;
+
+
+}
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo{
+    font-size: 35px;
+    color: #4E47FF;
+}
+.work-button{
+    border-radius: 5px;
+    height: 48px;
+    width: 132px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.navbar{
+display : flex;
+justify-content: space-between;
+align-items: center;
+padding : 20px 0;
+margin-bottom : 40px
+
+}
+.title{
+
+    font-weight:  800px;
+    font-size: 65px;
+}
+.section-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.header{
+    background-image: url('../image/Hero-bg.png');
+    height: 700px  ;
+   
+    background-size: cover;
+
+}
+/*Action Section*/
+.h2-title {
+    font-weight: bold;
+    font-size: 42px;
+
+}
+.color {
+   font-weight: 400;
+   font-size: 24px;
+   color:#252432;
+   margin-top: 23px;
+   margin-bottom: 23px;
+   line-height: 1.6;
+
+
+   
+}
+.action-btn{
+    width: 229px;
+    height: 48px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.action-section{
+    display:flex;
+    gap:220px;
+    justify-content: space-between;
+    margin: 137px  140px  0px 140px;           
+
+}
+.action-image{
+    width:403px;
+    height:328px;
+    border-radius: 48px;
+
+}
+.finish
+{
+    background-color: #e9e9f1;
+     background-size: cover;
+}
+/*Productive user section*/
+.stats-section {
+            background-color: #ddddf1;
+            border-radius: 24px;
+            padding: 60px;
+            margin: 116px 140px 0px 140px;
+            text-align: center;
+           
+
+        }
+        
+        .stats-title {
+            font-size: 38px;
+            font-weight: bold;
+            color: #1a1a1a;
+            margin-bottom: 40px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 80px;
+            font-weight: bold;
+            color: #6366f1;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            color: #000000;
+            font-size: 20px;
+        }
+        /*Lets get in touch section*/
+           .testimonials {
+            margin: 137px ;
+        }
+        
+        .testimonials h2 {
+            text-align: center;
+            font-size: 42px;
+            font-weight: bold;
+            color: #1a1a1a;
+            margin-bottom: 40px 151px 0px 151px;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        
+        .testimonial-card {
+            background: #F2EDED;
+            
+            border-radius: 16px;
+            padding: 30px;
+            text-align:     left;
+            box-shadow: #0f0e0f;
+        }
+        
+        .stars {
+            color: #fbbf24;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .testimonial-text {
+            color: #1a1a1a;
+            font-weight: 500;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .author-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #6366f1;
+        }
+        
+        .author-info {
+            text-align: left;
+        }
+        
+        .author-name {
+            font-weight: bold;
+            color: #1a1a1a;
+            font-size: 14px;
+        }
+        
+        .author-title {
+            color: #666;
+            font-size: 12px;
+        }
+        /* Ready to Focus Section */
+        .focus-section{
+            text-align: center;
+            padding : 40px ;
+            border-radius: 20px;
+            width:1140px;
+            margin: 137px 150px 0px 320px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2)  ;
+           
+        }
+       .focus-image {
+            
+            padding: 40px ;
+            border-radius: 48px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            
+          
+        }
+        /*contact section*/
+       .contact-section{
+        display:flex;
+        justify-content: space-between;
+        margin:100px 150px 0px 150px;
+        gap:115px;
+       }
+           .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            color: #1a1a1a;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.8);
+            font-size: 16px;
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .submit-btn {
+            background: #6366f1;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 500;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .contact-content{
+            font-weight: bold;
+            font-size: 97;
+        }
+        /*footer*/
+        .fh {
+           font-weight:900;
+           font-size:100;
+           color:#4E47FF;
+        }
+        .fp{
+          color:#8987A1;
+          font-size: 16 px ;
+        }
+        .S{
+           text-align: center;
+           margin-top: 103px;
+        }
+       .di{
+        display:flex;
+        justify-content: center;
+        gap:48px;
+        color:#8987A1;
+        font: size 16px;
+        
+        
+       }
+      
